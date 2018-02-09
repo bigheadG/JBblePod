@@ -1,0 +1,6 @@
+framework module JBblePod {
+  umbrella header "JBblePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

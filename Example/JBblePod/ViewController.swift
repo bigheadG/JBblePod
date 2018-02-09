@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import JBblePod
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let test = JBbleDevice()
+        test.bleLog()
+        
     }
 
     override func didReceiveMemoryWarning() {

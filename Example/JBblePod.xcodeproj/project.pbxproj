@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		CA42F04046009742DF524571 /* Pods_JBblePod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECEE2A20CA20111100074AD /* Pods_JBblePod_Example.framework */; };
+		D89A49A8271F011B63501A8B /* Pods_JBblePod_Example_JBblePod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D364B705C3AD781BE82A3CEB /* Pods_JBblePod_Example_JBblePod_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1ECEE2A20CA20111100074AD /* Pods_JBblePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBblePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		238A823F10A97412AB1BC1F1 /* Pods-JBblePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBblePod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JBblePod_Tests/Pods-JBblePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40072D8211E3356DE90257BB /* Pods-JBblePod_Example-JBblePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBblePod_Example-JBblePod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JBblePod_Example-JBblePod_Tests/Pods-JBblePod_Example-JBblePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JBblePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBblePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,12 +42,14 @@
 		607FACE51AFB9204008FA782 /* JBblePod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBblePod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6DA5055AB0C81808FEF2E798 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8ADE2CC07136C08591066AA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6DA5055AB0C81808FEF2E798 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8ADE2CC07136C08591066AA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		99726F19955EA72C82AE594C /* Pods-JBblePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBblePod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JBblePod_Example/Pods-JBblePod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B98A815A11E503631CC07718 /* Pods-JBblePod_Example-JBblePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBblePod_Example-JBblePod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JBblePod_Example-JBblePod_Tests/Pods-JBblePod_Example-JBblePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAE047150BD10841AA5FEE2A /* Pods-JBblePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBblePod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JBblePod_Tests/Pods-JBblePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFEAF16B0C1A92B9418E44DD /* Pods_JBblePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBblePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3E72BE464A17919602FB9D2 /* JBblePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JBblePod.podspec; path = ../JBblePod.podspec; sourceTree = "<group>"; };
+		D364B705C3AD781BE82A3CEB /* Pods_JBblePod_Example_JBblePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBblePod_Example_JBblePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E72BE464A17919602FB9D2 /* JBblePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JBblePod.podspec; path = ../JBblePod.podspec; sourceTree = "<group>"; };
 		FF3E0FBC00C7E9792BDCB9F3 /* Pods-JBblePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBblePod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JBblePod_Example/Pods-JBblePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322306DDEEF07B4437A65E44 /* Pods_JBblePod_Tests.framework in Frameworks */,
+				D89A49A8271F011B63501A8B /* Pods_JBblePod_Example_JBblePod_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,7 @@
 			children = (
 				1ECEE2A20CA20111100074AD /* Pods_JBblePod_Example.framework */,
 				CFEAF16B0C1A92B9418E44DD /* Pods_JBblePod_Tests.framework */,
+				D364B705C3AD781BE82A3CEB /* Pods_JBblePod_Example_JBblePod_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 				99726F19955EA72C82AE594C /* Pods-JBblePod_Example.release.xcconfig */,
 				BAE047150BD10841AA5FEE2A /* Pods-JBblePod_Tests.debug.xcconfig */,
 				238A823F10A97412AB1BC1F1 /* Pods-JBblePod_Tests.release.xcconfig */,
+				40072D8211E3356DE90257BB /* Pods-JBblePod_Example-JBblePod_Tests.debug.xcconfig */,
+				B98A815A11E503631CC07718 /* Pods-JBblePod_Example-JBblePod_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -215,10 +223,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YCE5TG56L2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YCE5TG56L2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -308,7 +318,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JBblePod_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JBblePod_Example-JBblePod_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBblePod_Tests/Pods-JBblePod_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBblePod_Example-JBblePod_Tests/Pods-JBblePod_Example-JBblePod_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F3C87C4BB8CC322C65ECF1FD /* [CP] Embed Pods Frameworks */ = {
@@ -354,16 +364,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JBblePod_Tests/Pods-JBblePod_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-JBblePod_Example-JBblePod_Tests/Pods-JBblePod_Example-JBblePod_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JBblePod/JBblePod.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JBblePod.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBblePod_Tests/Pods-JBblePod_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JBblePod_Example-JBblePod_Tests/Pods-JBblePod_Example-JBblePod_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -520,10 +530,11 @@
 			baseConfigurationReference = FF3E0FBC00C7E9792BDCB9F3 /* Pods-JBblePod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YCE5TG56L2;
 				INFOPLIST_FILE = JBblePod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joybien.JBblePod-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -535,10 +546,11 @@
 			baseConfigurationReference = 99726F19955EA72C82AE594C /* Pods-JBblePod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YCE5TG56L2;
 				INFOPLIST_FILE = JBblePod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joybien.JBblePod-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -547,8 +559,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAE047150BD10841AA5FEE2A /* Pods-JBblePod_Tests.debug.xcconfig */;
+			baseConfigurationReference = 40072D8211E3356DE90257BB /* Pods-JBblePod_Example-JBblePod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YCE5TG56L2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -568,8 +581,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 238A823F10A97412AB1BC1F1 /* Pods-JBblePod_Tests.release.xcconfig */;
+			baseConfigurationReference = B98A815A11E503631CC07718 /* Pods-JBblePod_Example-JBblePod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YCE5TG56L2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

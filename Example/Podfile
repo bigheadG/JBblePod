@@ -4,8 +4,8 @@ target 'JBblePod_Example' do
   pod 'JBblePod', :path => '../'
 
   target 'JBblePod_Tests' do
-    inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+pod 'JBblePod', :path => '../'
+
   end
 end

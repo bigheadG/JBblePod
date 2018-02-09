@@ -1,0 +1,16 @@
+PODS:
+  - JBblePod (0.1.0)
+
+DEPENDENCIES:
+  - JBblePod (from `../`)
+
+EXTERNAL SOURCES:
+  JBblePod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JBblePod: 9ca652cd164e7ce773717bdd34ac5d97c87d0857
+
+PODFILE CHECKSUM: 44141220d04bf0587ecc7fc7c51bbe7b98b8fa8c
+
+COCOAPODS: 1.3.1
